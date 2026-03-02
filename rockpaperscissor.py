@@ -32,7 +32,7 @@ computer_choice=random.randint(1,3)
 print("Computer chose:")
 print(game_images[computer_choice-1])
  
-if (user_choice>=4 or user_choice<=0):
+if (user_choice>3 or user_choice<1):
     print("Invalid input, you lose!")
 
 elif (user_choice==1 and computer_choice==3):
